@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import './App.css'
 import Sidebar from './assets/img/sidebar.svg'
+import Info from './components/Info/info'
 function App() {
 
   return (
     <>
     <section id='formulaire'>
       <img id='sidebar' src={Sidebar} alt="" />
-      
+
       <section className="overlay-text">
       {/* point 1 */}
         <div className='div-un'>
@@ -49,6 +50,9 @@ function App() {
             <p>SUMMARY</p>
           </div>
         </div>
+      </section>
+      <section id='info'>
+        <Info/>
       </section>
     </section>
     </>

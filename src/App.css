@@ -5,6 +5,7 @@
   height: 590px;
   position: relative;
   display: inline-block;
+  display: flex;
 }
 
 #sidebar {
@@ -50,4 +51,8 @@
 .div-txt h5{
   margin-bottom: 0px;
   font-weight: lighter;
+}
+#info{
+  margin-left: 50px;
+  margin-top: 50px;
 }
