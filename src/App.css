@@ -55,4 +55,6 @@
 #info{
   margin-left: 50px;
   margin-top: 50px;
+  opacity: 0; 
+/* 🛑ici pour re-afficher la section info */
 }

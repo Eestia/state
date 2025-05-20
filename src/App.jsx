@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Sidebar from './assets/img/sidebar.svg'
 import Info from './components/Info/info'
+import Plan from './components/Plan/plan'
 function App() {
 
   return (
@@ -53,6 +54,9 @@ function App() {
       </section>
       <section id='info'>
         <Info/>
+      </section>
+      <section id='plan'>
+        <Plan/>
       </section>
     </section>
     </>
