@@ -5,6 +5,7 @@ import Info from './components/Info/info'
 import Plan from './components/Plan/plan'
 import Add from './components/Add/add'
 import Summary from './components/Summary/summary'
+import Thx from './components/Thx/thx'
 
 function App() {
 
@@ -104,6 +105,9 @@ function App() {
             period={period}
             addons={addons}
           />
+        </section>
+        <section>
+          <Thx/>
         </section>
       </section>
     </>
