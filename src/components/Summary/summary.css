@@ -1,0 +1,13 @@
+#div-finish h2{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    color: rgb(0, 34, 82);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div-finish p{
+    margin-bottom: 50px;
+    margin-top: 0px;
+    font-size: 14px;
+    color: rgb(175, 175, 175);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

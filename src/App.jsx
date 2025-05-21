@@ -4,6 +4,7 @@ import Sidebar from './assets/img/sidebar.svg'
 import Info from './components/Info/info'
 import Plan from './components/Plan/plan'
 import Add from './components/Add/add'
+import Summary from './components/Summary/summary'
 function App() {
 
   return (
@@ -61,6 +62,9 @@ function App() {
       </section>
       <section id='section-add-on'>
         <Add/>
+      </section>
+      <section id='section-finish'>
+        <Summary/>
       </section>
     </section>
     </>
