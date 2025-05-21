@@ -1,6 +1,19 @@
+import { useState } from 'react';
 import './add.css';
 
-function Add({ goBack, goToNext }) {
+function Add({ goBack, goToNext, addons, setAddons, period }) {
+
+  // prix dynamiques selon période
+  const priceSuffix = period === 'monthly' ? '/mo' : '/yr';
+
+  const addonsData = [
+    { id: 1, title: 'Online service', desc: 'Access to multiplayer games', priceMonthly: 1, priceYearly: 10 },
+    { id: 2, title: 'Larger storage', desc: 'Extra 1TB of cloud save', priceMonthly: 2, priceYearly: 20 },
+    { id: 3, title: 'Customizable Profile', desc: 'Custom theme on your profile', priceMonthly: 2, priceYearly: 20 },
+  ];
+
+  // Mets à jour la liste d'addons affichée
+  // (Ici, pour simplifier, tu peux reconstruire le tableau ou bien utiliser addons + setAddons)
 
   return (
     <div>
@@ -9,58 +22,39 @@ function Add({ goBack, goToNext }) {
         <p>Add-ons help enhance your gaming experience.</p>
       </div>
       <div>
-        {/* 🔵 */}
-        <div className='rectangle'>
-          <div className='rectangle-input'>
-            <input type="checkbox" name="" id="" />
+        {addonsData.map(({id, title, desc, priceMonthly, priceYearly}) => (
+          <div
+            key={id}
+            className={`rectangle ${addons.some(a => a.id === id && a.selected) ? 'selected' : ''}`}
+            onClick={() => {
+              // toggler sélection en mettant à jour addons
+              const updatedAddons = addons.map(a =>
+                a.id === id ? { ...a, selected: !a.selected } : a
+              );
+              setAddons(updatedAddons);
+            }}
+          >
+            <div className='rectangle-input'>
+              <input type="checkbox" checked={addons.some(a => a.id === id && a.selected)} readOnly />
+            </div>
+            <div className='rectangle-txt'>
+              <h3>{title}</h3>
+              <p>{desc}</p>
+            </div>
+            <div className='rectangle-nbr'>
+              <p>{`+$${period === 'monthly' ? priceMonthly : priceYearly}${priceSuffix}`}</p>
+            </div>
           </div>
-
-          <div className='rectangle-txt'>
-            <h3>Online service</h3>
-            <p>Access to multiplayer games</p>
-          </div>
-
-          <div className='rectangle-nbr'>
-            <p>+$10/yr</p>
-          </div>
-        </div>
-        {/* 🔵 */}
-        <div className='rectangle'>
-          <div className='rectangle-input'>
-            <input type="checkbox" name="" id="" />
-          </div>
-
-          <div className='rectangle-txt'>
-            <h3>Larger storage</h3>
-            <p>Extra 1TB of cloud save</p>
-          </div>
-
-          <div className='rectangle-nbr2'>
-            <p>+$20/yr</p>
-          </div>
-        </div>
-        {/* 🔵 */}
-        <div className='rectangle'>
-          <div className='rectangle-input'>
-            <input type="checkbox" name="" id="" />
-          </div>
-
-          <div className='rectangle-txt'>
-            <h3>Customizable Profile</h3>
-            <p>Custom theme on your profile</p>
-          </div>
-
-          <div className='rectangle-nbr3'>
-            <p>+$20/yr</p>
-          </div>
-        </div>
+        ))}
       </div>
       <div id='div-btn2'>
-          <p onClick={goBack}>Go Back</p>
-          <button onClick={goToNext}>Next Step</button>
+        <p onClick={goBack} style={{ cursor: 'pointer' }}>Go Back</p>
+        <button onClick={goToNext}>Next Step</button>
       </div>
     </div>
   );
 }
 
+
 export default Add;
+

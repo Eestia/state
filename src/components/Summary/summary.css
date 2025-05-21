@@ -11,3 +11,28 @@
     color: rgb(175, 175, 175);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#summary-details {
+  background: #f0f4ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.summary-plan,
+.summary-addon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.summary-plan {
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.summary-addon {
+  color: #555;
+  font-size: 1em;
+}

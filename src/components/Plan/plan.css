@@ -128,7 +128,7 @@ input:checked + .slider:before {
     cursor: pointer;
 }
 #div-btn2 p{
-  font-weight: bolder;
+  font-weight: ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #div-btn2{
