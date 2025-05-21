@@ -101,14 +101,15 @@ function App() {
         <section id='section-finish' style={{ display: currentStep === 4 ? 'block' : 'none' }}>
           <Summary
             goBack={setCurrentStep}
+            onConfirm={() => setCurrentStep(5)}
             plan={plan}
             period={period}
             addons={addons}
           />
         </section>
-        <section>
-          <Thx/>
-        </section>
+          <section style={{ display: currentStep === 5 ? 'block' : 'none' }}>
+            <Thx />
+          </section>
       </section>
     </>
   )

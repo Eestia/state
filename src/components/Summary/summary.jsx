@@ -1,6 +1,6 @@
 import './summary.css';
 
-function Summary({ goBack, plan = 'Arcade', period = 'monthly', addons = [] }) {
+function Summary({ goBack, onConfirm, plan = 'Arcade', period = 'monthly', addons = [] }) {
 
   // Liste complète des prix des plans
   const plansPrices = {
@@ -47,7 +47,7 @@ function Summary({ goBack, plan = 'Arcade', period = 'monthly', addons = [] }) {
 
       <div id='div-btn2'>
         <p onClick={() => goBack(3)} style={{ cursor: 'pointer' }}>Go Back</p>
-        <button>Next Step</button>
+        <button onClick={onConfirm}>Confirm</button>
       </div>
     </div>
   );

@@ -1,0 +1,19 @@
+#thx-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#thx-section h2{
+    color: rgb(4, 64, 144);
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+#thx-section p{
+    color: rgb(191, 191, 191);
+    font-size: 15px;
+}
