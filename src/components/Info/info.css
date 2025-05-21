@@ -41,3 +41,6 @@
     margin-top: 60px;
     justify-content: end;
 }
+#perso-info {
+  display: none;
+}
