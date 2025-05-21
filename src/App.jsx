@@ -3,6 +3,7 @@ import './App.css'
 import Sidebar from './assets/img/sidebar.svg'
 import Info from './components/Info/info'
 import Plan from './components/Plan/plan'
+import Add from './components/Add/add'
 function App() {
 
   return (
@@ -57,6 +58,9 @@ function App() {
       </section>
       <section id='section-plan'>
         <Plan/>
+      </section>
+      <section>
+        <Add/>
       </section>
     </section>
     </>

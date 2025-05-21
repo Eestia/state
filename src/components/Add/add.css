@@ -1,0 +1,53 @@
+#div-haut h2{
+    color: rgb(0, 31, 75);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    font-size: 30px;
+}
+#div-haut p{
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(151, 151, 151);
+    font-size: 15px;
+}
+.rectangle{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+    border: 1px solid rgb(194, 194, 194);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.rectangle-txt h3{
+    margin-bottom: 0px;
+    color: rgb(0, 31, 75);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rectangle-txt p{
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(151, 151, 151);
+    font-size: 13px;
+}
+.rectangle-nbr{
+    color: rgb(141, 102, 191);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+}
+.rectangle-nbr2{
+    color: rgb(141, 102, 191);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 130px;
+}
+.rectangle-nbr3{
+    color: rgb(141, 102, 191);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    padding-right: 10px;
+}
