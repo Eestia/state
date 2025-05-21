@@ -10,6 +10,7 @@ function App() {
 
   const [currentStep, setCurrentStep] = useState(1);
   const [plan, setPlan] = useState('Arcade');
+  const goBack = (step) => {setCurrentStep(step);};
   const [period, setPeriod] = useState('monthly'); // 'monthly' ou 'yearly'
   const [addons, setAddons] = useState([
     { id: 1, title: 'Online service', priceMonthly: 1, priceYearly: 10, selected: true },
@@ -98,7 +99,7 @@ function App() {
 
         <section id='section-finish' style={{ display: currentStep === 4 ? 'block' : 'none' }}>
           <Summary
-            goBack={handleGoBack}
+            goBack={setCurrentStep}
             plan={plan}
             period={period}
             addons={addons}

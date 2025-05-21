@@ -12,10 +12,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #summary-details {
-  background: #f0f4ff;
+    width: 400px;
+  background: rgb(247, 249, 253);
   padding: 20px;
   border-radius: 8px;
   margin-top: 20px;
+  color: rgb(33, 72, 126);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .summary-plan,
@@ -33,6 +36,25 @@
 }
 
 .summary-addon {
-  color: #555;
   font-size: 1em;
 }
+.summary-addon #span1{
+    color: rgb(170, 172, 175);
+    font-size: 14px;
+}
+.summary-addon #span2{
+    font-weight: bolder;
+    color: rgb(17, 56, 111);
+    font-size: 14px;
+}
+.change-button {
+  background: none;
+  border: none;
+  color: #6a5acd;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-left: 8px;
+  padding: 0;
+}
+
