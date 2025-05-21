@@ -1,6 +1,6 @@
 import './add.css';
 
-function Add() {
+function Add({ goBack, goToNext }) {
 
   return (
     <div>
@@ -56,8 +56,8 @@ function Add() {
         </div>
       </div>
       <div id='div-btn2'>
-            <p>Go Back</p>
-            <button>Next Step</button>
+          <p onClick={goBack}>Go Back</p>
+          <button onClick={goToNext}>Next Step</button>
       </div>
     </div>
   );

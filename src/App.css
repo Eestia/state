@@ -6,6 +6,7 @@
   position: relative;
   display: inline-block;
   display: flex;
+  gap: 50px;
 }
 
 #sidebar {
@@ -53,17 +54,25 @@
   font-weight: lighter;
 }
 #info{
-  margin-left: 50px;
+  /* margin-left: 50px; */
   margin-top: 50px;
   /* opacity: 0;  */
 /* 🛑ici pour re-afficher la section info */
 }
-#section-plan{
+/* #section-plan{
   display: none;
-}
+} */
 #section-add-on{
   display: none;
 }
 #section-finish{
   display: none;
+}
+.div-nbr.active-step {
+  background-color: rgba(255, 255, 255, 0.578);
+  color: rgb(0, 0, 0);
+  border-color: rgb(255, 255, 255);
+}
+.div-nbr p {
+  transition: 0.3s ease;
 }

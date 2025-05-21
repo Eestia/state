@@ -1,6 +1,6 @@
 import './summary.css';
 
-function Summary() {
+function Summary({ goBack }) {
 
   return (
     <div>
@@ -9,9 +9,9 @@ function Summary() {
         <p>Double-check everything looks OK before confirming.</p>
       </div>
       <div id='div-btn2'>
-            <p>Go Back</p>
-            <button>Next Step</button>
-        </div>
+        <p onClick={goBack} style={{ cursor: 'pointer' }}>Go Back</p>
+        <button>Next Step</button>
+      </div>
     </div>
   );
 }

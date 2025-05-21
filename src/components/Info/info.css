@@ -24,6 +24,9 @@
     border-radius: 12px;
     border: 1.5px solid rgb(175, 175, 175); ;
 }
+#perso-info button:hover{
+    background-color: rgb(4, 54, 120);
+}
 #perso-info button{
     background-color: rgb(8, 39, 73);
     color: white;
@@ -40,7 +43,8 @@
     display: flex;
     margin-top: 60px;
     justify-content: end;
+    height: 40px;
 }
-#perso-info {
+/* #perso-info {
   display: none;
-}
+} */
