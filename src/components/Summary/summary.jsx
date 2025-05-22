@@ -46,8 +46,8 @@ function Summary({ goBack, onConfirm, plan = 'Arcade', period = 'monthly', addon
       </div>
 
       <div id='div-btn2'>
-        <p onClick={() => goBack(3)} style={{ cursor: 'pointer' }}>Go Back</p>
-        <button onClick={onConfirm}>Confirm</button>
+        <p id='goback3' onClick={() => goBack(3)} style={{ cursor: 'pointer' }}>Go Back</p>
+        <button id='btn-confirm' onClick={onConfirm}>Confirm</button>
       </div>
     </div>
   );

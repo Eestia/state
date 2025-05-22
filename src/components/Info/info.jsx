@@ -45,7 +45,7 @@ function Info({ goToNext }) {
       </div>
 
       <div id='div-btn'>
-        <button onClick={goToNext}>Next Step</button>
+        <button id='btn-une' onClick={goToNext}>Next Step</button>
       </div>
     </div>
   );

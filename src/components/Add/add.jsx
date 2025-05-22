@@ -48,8 +48,8 @@ function Add({ goBack, goToNext, addons, setAddons, period }) {
         ))}
       </div>
       <div id='div-btn2'>
-        <p onClick={goBack} style={{ cursor: 'pointer' }}>Go Back</p>
-        <button onClick={goToNext}>Next Step</button>
+        <p id='goback2' onClick={goBack} style={{ cursor: 'pointer' }}>Go Back</p>
+        <button id='btn-trois' onClick={goToNext}>Next Step</button>
       </div>
     </div>
   );

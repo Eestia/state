@@ -57,8 +57,8 @@ function Plan({ goBack, goToNext, period, setPeriod, plan, setPlan }) {
         <p style={{ color: isYearly ? '#001839' : 'gray', fontWeight: 'bold' }}>Yearly</p>
       </div>
       <div id='div-btn2'>
-        <p onClick={goBack} style={{ cursor: 'pointer' }}>Go Back</p>
-        <button onClick={goToNext}>Next Step</button>
+        <p id='goback' onClick={goBack} style={{ cursor: 'pointer' }}>Go Back</p>
+        <button id='btn-deux' onClick={goToNext}>Next Step</button>
       </div>
     </div>
   );

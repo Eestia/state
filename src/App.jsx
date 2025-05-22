@@ -14,10 +14,10 @@ function App() {
   const goBack = (step) => {setCurrentStep(step);};
   const [period, setPeriod] = useState('monthly'); // 'monthly' ou 'yearly'
   const [addons, setAddons] = useState([
-    { id: 1, title: 'Online service', priceMonthly: 1, priceYearly: 10, selected: true },
-    { id: 2, title: 'Larger storage', priceMonthly: 2, priceYearly: 20, selected: false },
-    { id: 3, title: 'Customizable Profile', priceMonthly: 2, priceYearly: 20, selected: true },
-  ]);
+  { id: 1, title: 'Online service', priceMonthly: 1, priceYearly: 10, selected: false },
+  { id: 2, title: 'Larger storage', priceMonthly: 2, priceYearly: 20, selected: false },
+  { id: 3, title: 'Customizable Profile', priceMonthly: 2, priceYearly: 20, selected: false },
+]);
 
   // Fonction pour revenir à l'étape précédente
   function handleGoBack() {

@@ -128,7 +128,6 @@ input:checked + .slider:before {
     cursor: pointer;
 }
 #div-btn2 p{
-  font-weight: ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #div-btn2{
@@ -145,4 +144,14 @@ input:checked + .slider:before {
 .div-card.selected {
   background-color: rgb(236, 236, 236);
   border-color: rgb(179, 159, 203);
+}
+#btn-deux{
+  position: absolute;
+  right: 71px;
+  top: 451px;
+}
+#goback{
+  position: absolute;
+  bottom: 90px;
+  font-weight: bolder;
 }

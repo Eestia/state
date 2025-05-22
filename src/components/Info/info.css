@@ -19,7 +19,7 @@
 .div-all input{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 20px;
-    width: 350px;
+    width: 420px;
     height: 35px;
     border-radius: 12px;
     border: 1.5px solid rgb(175, 175, 175); ;
@@ -30,20 +30,21 @@
 #perso-info button{
     background-color: rgb(8, 39, 73);
     color: white;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 4px;
+    height: 38px;
+    width: 89px;
+    padding-bottom: 4px;
     border: none;
     border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
 }
 #div-btn{
-    display: flex;
-    margin-top: 60px;
-    justify-content: end;
-    height: 40px;
+    position: absolute;
+    right: 71px;
+    top: 451px;
 }
 /* #perso-info {
   display: none;

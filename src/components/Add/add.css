@@ -69,3 +69,13 @@
   accent-color: rgb(177, 145, 215);
   cursor: pointer;
 }
+#btn-trois{
+    position: absolute;
+    right: 71px;
+    top: 451px;
+}
+#goback2{
+    position: absolute;
+    bottom: 90px;
+    font-weight: bolder;
+}
