@@ -12,7 +12,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #summary-details {
-    width: 400px;
+  width: 400px;
   background: rgb(247, 249, 253);
   padding: 20px;
   border-radius: 8px;
@@ -68,4 +68,19 @@
   position: absolute;
   bottom: 90px;
   font-weight: bolder;
+}
+@media (max-width: 769px){
+#btn-confirm{
+  position: absolute;
+  right: 51px;
+  top: 471px;
+}
+#goback3{
+  left: 320px;
+  top: 460px;
+}
+#summary-details {
+  width: 300px;
+  font-size: 15px;
+}
 }
