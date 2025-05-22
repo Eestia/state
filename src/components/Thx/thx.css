@@ -23,3 +23,18 @@
     font-size: 12px;
 }
 }
+@media (max-width: 426px){
+#thx-section p{
+    font-size: 8px;
+}
+#thx-section{
+    margin-top: 100px;
+    margin-left: 4px;
+}
+#thx-section h2{
+    font-size: 20px;
+}
+#thx-section img{
+    height: 50px;
+}
+}

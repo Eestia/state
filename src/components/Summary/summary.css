@@ -84,3 +84,34 @@
   font-size: 15px;
 }
 }
+@media (max-width: 426px){
+#btn-confirm{
+  right: 21px;
+  top: 337px;
+}
+#goback3{
+  left: 220px;
+  top: 328px;
+  font-size: 15px;
+}
+#summary-details {
+  width: 170px;
+  font-size: 10px;
+}
+#div-finish h2{
+    margin-top: 30px;
+    font-size: 18px;
+}
+#div-finish p{
+    font-size: 13px;
+}
+.summary-addon #span1{
+    font-size: 12px;
+}
+.summary-addon #span2{
+    font-size: 10px;
+}
+.summary-plan {
+  padding-bottom: 0px;
+}
+}
