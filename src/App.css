@@ -86,3 +86,22 @@
   left: 30px;
 }
 }
+@media (max-width: 426px){
+#formulaire{
+  background-color: white;
+  width: 430px;
+  height: 400px;
+  gap: 10px;
+}
+.overlay-text {
+  left: 15px;
+}
+.div-nbr{
+  width: 30px;
+  height: 30px;
+  align-items: center;
+}
+#info{
+  margin-top: 10px;
+}
+}
