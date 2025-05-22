@@ -76,3 +76,13 @@
 .div-nbr p {
   transition: 0.3s ease;
 }
+@media (max-width: 769px){
+#formulaire{
+  background-color: white;
+  width: 650px;
+  gap: 12px;
+}
+.overlay-text {
+  left: 30px;
+}
+}

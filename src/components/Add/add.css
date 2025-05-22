@@ -79,3 +79,26 @@
     bottom: 90px;
     font-weight: bolder;
 }
+@media (max-width: 769px){
+#btn-trois{
+  position: absolute;
+  right: 51px;
+  top: 471px;
+}
+#goback2{
+  left: 320px;
+  top: 460px;
+}
+.rectangle-nbr{
+    margin-left: 45px;
+}
+.rectangle-txt h3{
+    font-size: 15px;
+}
+.rectangle-txt p{
+    font-size: 12px;
+}
+#les-rectangles{
+    margin-right: 10px;
+}
+}

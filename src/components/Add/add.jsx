@@ -24,6 +24,7 @@ function Add({ goBack, goToNext, addons, setAddons, period }) {
       <div>
         {addonsData.map(({id, title, desc, priceMonthly, priceYearly}) => (
           <div
+            id='les-rectangles'
             key={id}
             className={`rectangle ${addons.some(a => a.id === id && a.selected) ? 'selected' : ''}`}
             onClick={() => {

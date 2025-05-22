@@ -155,3 +155,26 @@ input:checked + .slider:before {
   bottom: 90px;
   font-weight: bolder;
 }
+@media (max-width: 769px){
+.div-card{
+    width: 90px;
+}
+.div-txt2 h3{
+    font-size: 16px;
+}
+.div-txt2 p{
+    color: rgb(181, 181, 181);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+#btn-deux{
+  position: absolute;
+  right: 51px;
+  top: 471px;
+}
+#goback{
+  left: 320px;
+  top: 460px;
+}
+}

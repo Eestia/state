@@ -49,3 +49,16 @@
 /* #perso-info {
   display: none;
 } */
+@media (max-width: 769px){
+    .div-all input{
+    width: 270px;
+    }
+    #first-div p{
+    font-size: 12px;
+    }
+    #div-btn{
+    position: absolute;
+    right: 51px;
+    top: 471px;
+    }
+}
